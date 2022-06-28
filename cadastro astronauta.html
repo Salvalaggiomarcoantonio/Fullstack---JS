@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Cadastro para ir ao Espaço</h2>
+    <form action <div>
+        <label for="gname">Seu nome:</label>
+        <input type="text" id="gname" name="gname" autocomplete="on">
+        <label for="fname">Sobrenome:</label>
+        <input type="text" id="fname" name="gname" autocomplete="on">
+        </div>
+        <br><br>
+        <div>
+            <label for="email">Seu email:</label>
+            <input type="text" id="email" name="email" required placeholder="Seu email">
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" min="6" max="20" required placeholder="Sua senha"><br>
+        </div>
+        <br><br>
+        <div>
+            <label for="Birthday">Data de nascimento:</label>
+            <input type="date" id="Birthday" name="Birthday"> -
+            <label for="Foto">Foto:</label> 
+            <input type="file" id="Foto" name="Foto"><br><br>
+        </div>
+
+        <div>
+            <label for="nacionality">Nacionalidade:</label>
+            <select name="nacionality" id="nacionality">
+                <option value="Brasilian">Brasil</option>
+                <option value="American">Americana</option>
+                <option value="Russian">Russa</option>
+            </select> -
+        </div>
+        <br>
+        <div>
+           <strong>Genero:</strong>
+            <label for="Female">Feminino</label>
+            <input type="radio" name="gender" id="female" value="Female" />
+            <label for="Male">Masculino</label>
+            <input type="radio" name="gender" id="male" value="Male" />
+        </div>
+
+        <div>
+            <br>
+            <label for="checkbox">Suas pricipais qualidades:</label> /
+            <input type="checkbox" id="checkbox" name="veh1" value="Inteligência">
+            <label for="veh1">Inteligência</label> /
+            <input type="checkbox" id="checkbox" name="veh2" value="Preparo Físico">
+            <label for="veh2">Preparo Físico</label> /
+            <input type="checkbox" id="checkbox" name="veh3" value="Atento">
+            <label for="veh3">Atento</label> /
+            <input type="checkbox" id="checkbox" name="veh4" value="Educação">
+            <label for="veh4">Educacao</label><br><br>
+        </div>
+
+        <div>
+            <textarea name="mensagem" rows="10" cols="100"
+                placeholder="Por que você gostaria de ser um astronauta?"></textarea><br><br>
+        </div>
+
+        <div>
+            <button type="submit" value="Enviar" onclick="alert('Parabéns! Seu cadastro foi enviado!')">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>
